@@ -1,0 +1,18 @@
+{
+  "name": "@monorepo/common",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "license": "MIT",
+  "dependencies": {
+    "yup": "^0.27.0"
+  },
+  "devDependencies": {
+    "@types/yup": "^0.26.22",
+    "rimraf": "^2.6.3",
+    "typescript": "^3.5.3"
+  },
+  "scripts": {
+    "build": "rimraf ./dist && tsc"
+  }
+}

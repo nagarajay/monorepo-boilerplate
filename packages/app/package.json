@@ -1,0 +1,39 @@
+{
+  "name": "@monorepo/app",
+  "version": "1.0.0",
+  "main": "__generated__/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "eject": "expo eject"
+  },
+  "dependencies": {
+    "@apollo/react-hooks": "^3.0.1",
+    "@monorepo/common": "^1.0.0",
+    "@monorepo/controller": "^1.0.0",
+    "apollo-cache-inmemory": "^1.6.3",
+    "apollo-client": "^2.6.4",
+    "apollo-link-error": "^1.1.11",
+    "apollo-link-http": "^1.5.15",
+    "expo": "^34.0.1",
+    "formik": "^1.5.8",
+    "graphql": "^14.5.3",
+    "graphql-tag": "^2.10.1",
+    "react": "16.9.0",
+    "react-dom": "^16.9.0",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-34.0.0.tar.gz",
+    "react-native-web": "^0.11.4",
+    "react-router-native": "^5.0.1"
+  },
+  "devDependencies": {
+    "@types/react": "^16.8.23",
+    "@types/react-native": "^0.57.65",
+    "@types/react-router": "^5.0.3",
+    "babel-preset-expo": "^6.0.0",
+    "expo-yarn-workspaces": "^1.2.0",
+    "typescript": "^3.5.3"
+  },
+  "private": true
+}
